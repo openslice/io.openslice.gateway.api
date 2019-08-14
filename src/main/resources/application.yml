@@ -8,7 +8,7 @@ zuul:
       url: http://localhost:13082/spring-security-oauth-resource
     oauth:
       path: /oauth/**
-      url: http://localhost:13081/spring-security-oauth-server/oauth
+      url: http://localhost:13081/osapi-oauth-server/oauth
 
 security:
   oauth2:
